@@ -1,0 +1,122 @@
+body {
+    background-color: black;
+}
+
+h2 {
+    color: #33a8db;
+}
+
+p {
+    color: white;
+}
+
+section {
+    margin: 100px auto;
+}
+
+.banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(51, 168, 219, .3), rgba(0, 0, 0, 0.6)), url(/assets/images/banner.png);
+    height: 605px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-bottom: 1px solid #33a8db;
+    padding-top: 60px;
+}
+
+.banner .banner-content {
+    color: white;
+    width: 600px;
+    margin: auto;
+    text-align: center;
+}
+
+.banner .logo{
+    height: 260px;
+    width: 260px;
+    margin: auto;
+    background-color: rgba(10, 10, 10, 0.6);
+    border-radius: 50%;
+    padding: 16px;
+    margin-bottom: 16px;
+}
+
+.banner .logo img {
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    object-fit: contain;
+}
+
+.banner h1 {
+    color: transparent;
+    background: -webkit-linear-gradient(#33a8db, #1472b7);
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.banner p {
+    margin: 16px 0 24px;
+}
+
+.banner .banner-content button {
+    padding: 16px 32px;
+    color: #33a8db;
+    background-color: transparent;
+    border-image: linear-gradient(#3ba1cd, #1572b7);
+    border-image-slice: 10;
+    border-radius: 30px;
+}
+
+#course-content {
+    width: 800px;
+    text-align: center;
+}
+
+
+#course-content .modules-list {
+    margin: 24px 0;
+}
+
+#course-content .modules-list .module {
+    color: white;
+    width: 530px;
+    margin: 0 auto 24px;
+    border: 1px solid #33a8db;
+    background-color: #252525;
+    padding: 16px;
+    border-radius: 100px;
+    box-shadow: inset -5px 6px 8px rgba(0, 0, 0, 0.7);
+}
+
+#course-content .modules-list .module span {
+    color: #33a8db;
+}
+
+#transform-world {
+    height: 560px;
+    background-size: cover;
+    background-image: url("../images/woman-code.png");
+    background-attachment: fixed;
+    border: 1px solid #33a8db;
+    padding: 200px;
+}
+
+#transform-world p {
+    max-width: 250px;
+}
+
+#professional-challenges {
+    text-align: center;
+    width: 800px;
+}
+
+#professional-challenges img {
+    margin: 32px 0;
+}
+
+footer {
+    padding: 60px 0;
+    text-align: center;
+    background-image: linear-gradient(rgba(50, 168, 219, 0), rgba(50, 168, 219, .2));
+}
+
